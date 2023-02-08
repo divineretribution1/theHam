@@ -1,0 +1,217 @@
+:root{
+    --accent-color:#18CFAB;
+}
+body {
+    font-family: 'Montserrat', sans-serif;
+   
+    margin: 0 auto;
+}
+.header{
+    background-image: url(../img/Layer1.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    height: 1012px;
+}
+.container{
+    width: 1160px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo_main{
+    display: flex;
+    align-items: center;
+    margin: 27px 0;
+}
+.logo-img-url{
+    display: flex;
+    align-items: center;
+}
+.header_nav{
+
+    background: rgba(94, 93, 88, 0.6);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav-list{
+    display: flex;
+    margin-top: 55px ;
+    margin-bottom: 49px;
+}
+.nav-list-item{
+    margin-right: 21px;
+    padding-bottom: ;
+    position: relative;
+}
+.nav-list-item:hover .nav-list-url{
+    color: var(--accent-color);
+}
+.nav-list-item:nth-of-type(1):hover:after{
+    display: block;
+position: absolute;
+top: 70px;
+left: 0;
+    content: "";
+    border-bottom: 2px solid var(--accent-color);
+    width:  53px;
+    
+}
+.nav-list-item:nth-of-type(2):hover:after{
+    display: block;
+position: absolute;
+top: 70px;
+left: 0;
+    content: "";
+    border-bottom: 2px solid var(--accent-color);
+    width:  61px;
+    
+}
+.nav-list-item:nth-of-type(3):hover:after{
+    display: block;
+position: absolute;
+top: 70px;
+left: 0;
+    content: "";
+    border-bottom: 2px solid var(--accent-color);
+    width:  48px;
+    
+}
+.nav-list-item:nth-of-type(4):hover:after{
+    display: block;
+position: absolute;
+top: 70px;
+left: 0;
+    content: "";
+    border-bottom: 2px solid var(--accent-color);
+    width:  57px;
+    
+}
+.nav-list-item:nth-of-type(5):hover:after{
+    display: block;
+position: absolute;
+top: 70px;
+left: 0;
+    content: "";
+    border-bottom: 2px solid var(--accent-color);
+    width:  72px;
+    
+}
+.nav-list-item:nth-of-type(6):hover:after{
+    display: block;
+position: absolute;
+top: 70px;
+left: 0;
+    content: "";
+    border-bottom: 2px solid var(--accent-color);
+    width:  55px;
+    
+}
+.nav-list-item:nth-of-type(7):hover:after{
+    display: block;
+position: absolute;
+top: 70px;
+left: 0;
+    content: "";
+    border-bottom: 2px solid var(--accent-color);
+    width:  115px;
+    
+}
+.nav-list-item:nth-of-type(8):hover:after{
+    display: block;
+position: absolute;
+top: 70px;
+left: 0;
+    content: "";
+    border-bottom: 2px solid var(--accent-color);
+    width:  22px;
+    
+}
+.logo-text-url{
+    color: #fff;
+    font-style: normal;
+font-weight: normal;
+font-size: 32px;
+line-height: 48px;
+margin-left: 5px;
+}
+.accent-color{
+    color:  var(--accent-color);
+}
+.accent-color-bold{
+    color:  var(--accent-color);
+    font-weight: bold;
+}
+.nav-list-url{
+    text-transform: uppercase;
+    color: rgba(255, 255, 255, 0.6);
+    font-style: normal;
+font-weight: bold;
+font-size: 16px;
+line-height: 24px;
+
+}
+.logo_main{
+    width: 250px;
+}
+.nav-list{
+    width: fit-content;
+}
+
+.main-header{
+    font-weight: bold;
+font-size: 35px;
+
+color: white;
+margin-top: 279px;
+width: fit-content;
+margin-left: auto;
+margin-right: auto;
+text-transform: uppercase;
+}
+.main-header-2{
+    font-style: normal;
+font-weight: bold;
+font-size: 78px;
+
+color: white    ;
+width: fit-content;
+margin-top:  22px;
+margin-left: auto;
+margin-right: auto;
+text-transform: uppercase;
+}
+.main-header-3{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 34px;
+    
+    color: #D4D4D4;
+    width: fit-content;
+margin-left: auto;
+margin-right: auto;
+margin-top: 22px;
+}
+.explore{
+    padding: 17px 17px;
+    background-color: var(--accent-color);;
+    border:none ;
+    border-top: 2px white solid;
+    border-radius: 5px ;
+   
+    margin-right: 26px;
+    display: block;
+    color: white;
+}
+.purchase{
+    padding: 17px 17px;
+    background-color: #00CBF6;;
+    border:none ;
+    border-top: 2px white solid;
+    border-radius: 5px ;
+    
+   
+    display: block;
+    color: white;
+}

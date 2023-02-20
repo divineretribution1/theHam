@@ -52,7 +52,7 @@ else if (el.target.classList.contains('our-list-url')){
 }
 })
 
-// slider
+// carousel
 $('.slider-for').slick({
 	slidesToShow: 1,
 	slidesToScroll: 1,
